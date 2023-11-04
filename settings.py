@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'app_cart',
     'app_admin',
     'app_report',
-    'app_analysis',
+    
 ]
 
 MIDDLEWARE = [
