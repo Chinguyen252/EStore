@@ -6,9 +6,8 @@
     <div class="breadcrumb-wrap">
         <div class="container-fluid">
             <ul class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Products</a></li>
-                <li class="breadcrumb-item active">Login & Register</li>
+                <li class="breadcrumb-item"><a href="{% url 'app_store:trang_chu' %}">Home</a></li>
+                <li class="breadcrumb-item active">Đăng ký và Đăng nhập</li>
             </ul>
         </div>
     </div>
@@ -113,22 +112,7 @@
     </div>
     <!-- Login End -->
 
-    <div class="col-md-4">
-                                    <label>Tỉnh/TP</label>
-                                    <select class="form-control" id="id_province" name="tinh_tp">
-                                    </select>
-                                </div>
-                                <div class="col-md-4">
-                                    <label>Quận/Huyện</label>
-                                    <select class="form-control" id="id_district" name="quan_huyen">
-                                    </select>
-                                </div>
-                                <div class="col-md-4">
-                                    <label>Phường/Xã</label>
-                                    <select class="form-control" id="id_ward" name="phuong_xa">
-                                    </select>
-                                </div>
-
+  
 
     <script type="text/javascript">
         $(document).ready(function () {
